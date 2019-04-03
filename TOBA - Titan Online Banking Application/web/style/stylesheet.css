@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2019, 6:08:34 PM
+    Author     : lawrencewilson
+*/
+
+body {
+    background: url('beach-beautiful-bridge-449627.jpg') no-repeat;
+    background-size: none;
+    margin-left: 10%;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+}
+
+ul li {
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover {
+    background-color: green;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li {
+    display: block;
+}
